@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.waterbell.hito.watersource.Login">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:weightSum="1"
+        android:id="@+id/layoutLogin"
+
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sign In with your account"
+            android:id="@+id/captionSignIn"
+            android:layout_marginLeft="12dp"
+
+            android:textColor="@color/jungleGreen"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/userIdEdTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/textbox"
+
+            android:hint="Username or Email Id"
+            android:paddingLeft="10dp"
+            android:inputType="textVisiblePassword|text"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textColorHint="@color/textHint">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/pwdEdTxt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/textbox"
+            android:hint="Password"
+            android:paddingLeft="10dp"
+            android:inputType="textPassword"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/textHint" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Forgot Password?"
+            android:id="@+id/captionPwdReset"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/material_blue_grey_950"
+            android:layout_weight="0.04"
+            android:clickable="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:id="@+id/btnSignIn"
+            android:background="@drawable/btnsolid"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:bottomRightRadius="5dp"
+            android:bottomLeftRadius="5dp"
+            android:topLeftRadius="5dp"
+            android:topRightRadius="5dp"
+            android:stateListAnimator="@null"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Not a member yet?"
+            android:id="@+id/captionNewMember"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/jungleGreen"
+            android:layout_weight="0.04"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnhollow"
+            android:text="Sign Up"
+            android:id="@+id/btnSignUp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/jungleGreen"
+            android:bottomRightRadius="5dp"
+            android:bottomLeftRadius="5dp"
+            android:topLeftRadius="5dp"
+            android:topRightRadius="5dp"
+            android:stateListAnimator="@null"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

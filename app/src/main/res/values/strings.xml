@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WaterBell</string>
+    <string name="welcomeMsg"> Water Bell</string>
+    <string name="caption">Water at your doorstep</string>
+    <string name="tagline"></string>
+    <string name="typeface_robotoThin">RobotoThin.ttf</string>
+    <string name="typeface_robotoLight">RobotoLight.ttf</string>
+    <string name="typeface_robotoBold">RobotoBold.ttf</string>
+    <string name="typeface_daydreamer">daydreamer.ttf</string>
+    <string name="typeface_porkys">porkys.ttf</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_show_suppliers">showSuppliersActivity</string>
+    <string name="title_activity_add_water_supplier">AddWaterSupplier</string>
+    <string name="title_activity_registration_success">RegistrationSuccess</string>
+    <string name="title_activity_search_suppliers">Search Suppliers</string>
+    <string name="hello_world">Hello world!</string>
+
+
+    <string-array name="bangaloreCityList">
+        <item>Sarjapur Road</item>
+        <item>Whitefield</item>
+        <item>Bannerghatta Road</item>
+        <item>Electronic City</item>
+        <item>HSR Layout</item>
+        <item>Jayanagar</item>
+        <item>JP Nagar</item>
+        <item>Hosur Road</item>
+        <item>Indira Nagar</item>
+        <item>Koramangala</item>
+        <item>Yelahanka</item>
+        <item>Hesaraghatta Main Road</item>
+        <item>Devanahalli</item>
+        <item>Marathahalli</item>
+        <item>Hebbal</item>
+        <item>Kanakapura Road</item>
+        <item>Anekal</item>
+        <item>Hennur Road</item>
+        <item>C V Raman Nagar</item>
+        <item>Kalyan Nagar</item>
+        <item>RT Nagar</item>
+        <item>Jalahalli</item>
+        <item>HRBR Layout</item>
+        <item>BTM Layout</item>
+        <item>Ramamurthy Nagar</item>
+        <item>Brooke Field</item>
+        <item>Jakkur</item>
+        <item>Dollars Colony</item>
+        <item>Abbigere</item>
+        <item>Rajanukunte</item>
+        <item>G M Palya</item>
+        <item>Kundalahalli</item>
+        <item>Madiwala</item>
+        <item>Fraser Town</item>
+        <item>Chandapur</item>
+        <item>Gottigere</item>
+        <item>Basavanagar</item>
+        <item>Nagarbhavi</item>
+        <item>Belandur</item>
+        <item>Hoskote</item>
+        <item>Chamarajpet</item>
+        <item>Richards Town</item>
+        <item>Lavelle Road</item>
+        <item>Kodigehalli</item>
+        <item>Chikkajala</item>
+        <item>Hanumanth Nagar</item>
+        <item>Akshaya Nagar</item>
+        <item>Thanisandra</item>
+        <item>Sarjapur</item>
+        <item>Hegde Nagar</item>
+        <item>Jigani Industrial Area</item>
+        <item>Mathikere</item>
+        <item>Rest House Road</item>
+        <item>Begur Road</item>
+        <item>Rajajinagar</item>
+        <item>MG Road</item>
+        <item>HBR Layout</item>
+        <item>Banaswadi</item>
+        <item>Uttarahalli</item>
+        <item>Airport Road</item>
+        <item>Thippasandra</item>
+        <item>Banashankari</item>
+        <item>Bagalur</item>
+        <item>Horamavu</item>
+        <item>KR Puram</item>
+        <item>Bommanahalli</item>
+        <item>OMBR Layout</item>
+        <item>Mysore Road</item>
+        <item>Silkboard</item>
+        <item>RMV Extension Stage</item>
+        <item>Old Madras Road</item>
+        <item>Kasturi Nagar</item>
+        <item>Tumkur Road</item>
+        <item>Richmond Road</item>
+        <item>Vidyaranyapura</item>
+        <item>Mahadevapura</item>
+        <item>Rajarajeshwari Nagar</item>
+        <item>Malleshwaram</item>
+        <item>AECS Layout</item>
+        <item>Chikkaballapur</item>
+        <item>Defence Colony</item>
+        <item>Kanaka Nagar</item>
+        <item>Hulimavu</item>
+        <item>Thyagaraj Nagar</item>
+        <item>Basaveshwaranagar</item>
+        <item>Airport Area</item>
+        <item>Kumaraswamy Layout</item>
+        <item>Sanjay Nagar</item>
+        <item>Hoskote</item>
+        <item>Kudlu Gate</item>
+        <item>RBI Layout</item>
+        <item>Palace Road</item>
+        <item>Hoodi Village</item>
+        <item>Millers Road</item>
+        <item>Huskur</item>
+        <item>Vijaya Bank Layout</item>
+        <item>Shanti Nagar</item>
+        <item>Hebbal Kempapura</item>
+        <item>Tippasandra</item>
+        <item>Naganathapura</item>
+        <item>Yeshwantpur</item>
+        <item>Jeevan Bima Nagar</item>
+        <item>Cox Town</item>
+        <item>Ulsoor</item>
+        <item>Benson Town</item>
+        <item>ITPL</item>
+        <item>Doddaballapur</item>
+        <item>Kaggadaspura</item>
+        <item>Nagwar</item>
+        <item>Attibele</item>
+        <item>Padmanabhanagar</item>
+        <item>Vijayanagar</item>
+        <item>Kengeri</item>
+        <item>Peenya</item>
+        <item>Magadi Road</item>
+        <item>NelaMangala</item>
+        <item>Sahakar Nagar</item>
+        <item>Dodballapur Road</item>
+        <item>Outer Ring Road</item>
+        <item>Vigyan Nagar</item>
+        <item>Basavanagudi</item>
+        <item>Mallesh Palaya</item>
+        <item>Domlur</item>
+        <item>Cookes Town</item>
+        <item>Old Airport Road</item>
+        <item>Bellary Road</item>
+        <item>Sadaramangala</item>
+        <item>Anjanapura</item>
+        <item>Majestic</item>
+        <item>Vasanth Nagar</item>
+        <item>Wilson Garden</item>
+        <item>ISRO Layout</item>
+        <item>HMT Layout</item>
+        <item>Nagawara</item>
+        <item>Doddaballapur Road</item>
+        <item>Central Silk Board</item>
+        <item>Nandi Hills</item>
+        <item>Ganganagar</item>
+        <item>Bommasandra</item>
+        <item>Pai Layout</item>
+        <item>Sadaramangala</item>
+        <item>Prashanth Nagar</item>
+        <item>Hennur</item>
+        <item>Raj Bhavan</item>
+        <item>Vidyanagar</item>
+        <item>Bilekahalli</item>
+        <item>Manek Chowk</item>
+        <item>Chambal River</item>
+        <item>Indraprastha</item>
+    </string-array>
+
+    <string-array name="city_arrays">
+        <item>Bangalore</item>
+        <item>Chennai</item>
+        <item>Mumbai</item>
+        <item>Kolkata</item>
+        <item>Delhi</item>
+        <item>Pune</item>
+        <item>Noida</item>
+
+    </string-array>
+
+    <string name="title_activity_add_items">Choose Water Bottle</string>
+    <string name="title_activity_confirm_order">Confirm Your Order</string>
+    <string name="title_activity_payment_mode">PaymentMode</string>
+    <string name="title_activity_payment_gateway_pay_u">PaymentGatewayPayU</string>
+    <string name="title_activity_login">Sign In</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_sign_up_success">SignUpSuccess</string>
+    <string name="title_activity_swipe_items">SwipeItems</string>
+    <string name="title_activity_payment_success">Order Status</string>
+    <string name="title_activity_payment_failed">PaymentFailed</string>
+    <string name="title_activity_add_product">AddProduct</string>
+    <string name="title_activity_add__delivery__detail">Add Delivery Details</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_your_orders">YourOrders</string>
+
+
+</resources>

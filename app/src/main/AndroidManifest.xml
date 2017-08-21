@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.waterbell.hito.watersource">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.example.hito.watersource.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="com.mobile.waterapp.parselogin.ParseApp"
+        android:allowBackup="true"
+        android:icon="@drawable/wb"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <!--  -->
+
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".showSuppliersActivity"
+            android:label="@string/title_activity_show_suppliers"
+            android:parentActivityName=".HomeScreen"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.waterbell.hito.watersource.HomeScreen" />
+        </activity>
+        <activity
+            android:name=".AddWaterSupplier"
+            android:label="@string/title_activity_add_water_supplier"
+            android:parentActivityName=".HomeScreen"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.waterbell.hito.watersource.HomeScreen" />
+        </activity>
+        <activity
+            android:name=".RegistrationSuccess"
+            android:label="@string/title_activity_registration_success"
+            android:parentActivityName=".HomeScreen"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.waterbell.hito.watersource.HomeScreen" />
+        </activity>
+        <activity
+            android:name="com.mobile.waterapp.search.SearchSuppliers"
+            android:icon="@drawable/wb2"
+            android:label="@string/title_activity_search_suppliers"
+            android:launchMode="singleTop"
+            android:parentActivityName=".HomeScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddItems"
+            android:label="@string/title_activity_add_items"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.mobile.waterapp.search.SearchSuppliers"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyD9O2HMoDGq9XgXDq3tmHiHCcVBSCG9F04" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".ConfirmOrder"
+            android:label="@string/title_activity_confirm_order"
+            android:parentActivityName=".AddDeliveryDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PaymentGatewayPayU"
+            android:label="@string/title_activity_payment_gateway_pay_u"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignUpSuccess"
+            android:label="@string/title_activity_sign_up_success"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PaymentSuccess"
+            android:label="@string/title_activity_payment_success"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PaymentFailed"
+            android:label="@string/title_activity_payment_failed"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddProduct"
+            android:label="@string/title_activity_add_product"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddDeliveryDetail"
+            android:label="@string/title_activity_add__delivery__detail"
+            android:launchMode="singleTop"
+            android:parentActivityName=".AddItems"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".YourOrders"
+            android:label="@string/title_activity_your_orders"></activity>
+    </application>
+
+</manifest>
